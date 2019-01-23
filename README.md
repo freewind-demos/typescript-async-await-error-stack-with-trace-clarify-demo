@@ -4,6 +4,9 @@ TypeScript Async Await Error Stack Demo
 Async/await function doesn't provide good stack trace (missing middle calls),
 but we can use `trace` and `clarify` to make it better.
 
+- `trace`: gathering stacks from different context
+- `clarify`: find function name and fill in the stack messages, e.g. `functionTwo`
+
 ```
 npm install
 npm run async-await-demo1
